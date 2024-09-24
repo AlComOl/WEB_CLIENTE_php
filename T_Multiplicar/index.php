@@ -9,20 +9,24 @@
 <table border= '1'>
 
 <?php
-    $filas=8;
-    $columnas=8;
+    $filas=9;
+    $columnas=9;
     
 
-    for($i=0;$i<=$filas;$i++){
+    for($i=1;$i<=$filas;$i++){
         print "<tr>";
-        for($j=0;$j<=$columnas;$j++){
+        for($j=1;$j<=$columnas;$j++){
            
-            if($j==0){
-                print "<td style='background-color:blue'>$i</td>";
-            }else if($i==0){
-                print "<td style='background-color:red'>$j</td>";
+            if($j==1){
+                print "<td style='background-color:blue; padding:20px; text-align:center;'>$i</td>";
+
+
+            }else if($i==1){
+                print "<td style='background-color:red; padding:20px; text-align:center;'>$j</td>";
+
+
             }else if($i||$j !=0){
-                print "<td>".($i*$j)."</td>";
+                print "<td style=' text-align:center;'>".($i*$j)."</td>";
             }
            
     }
