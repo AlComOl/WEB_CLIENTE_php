@@ -1,11 +1,20 @@
 table{
-    border :2px solid black;
+    border :5px solid black;
 }
 td{
     border: 1px solid black;
-    padding:60px
+    padding:30px
+    
 }
 
 tr{
     border: 1px solid black;
+   
+}
+
+.rojo{
+    background-color: brown;
+}
+.blanco{
+    background-color: beige;
 }
