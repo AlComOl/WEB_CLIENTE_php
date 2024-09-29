@@ -4,10 +4,10 @@ $res="";
 for ($i=0; $i< strlen($frase); $i++) {
     
     if($i%2==0){
-        //$res[$i]=$frase.str_replace($frase[$i],$frase.strtolower($frase[$i]),$frase);
+      
         $res.=strtoupper($frase[$i]);
     } else{
-        //$res.$frase.str_replace($frase[$i],$frase.strtoupper($frase[$i]),$frase);
+       
         $res.=strtolower($frase[$i]);
     }
 }

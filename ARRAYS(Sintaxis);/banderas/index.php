@@ -45,7 +45,7 @@
             echo "<tr>";
             echo '<td>'.$pais["pais"].'</td>';
             echo '<td>'.$pais["capital"].'</td>';
-            echo '<td>'.$pais["bandera"].'</td>';
+            echo '<td><img src="'.$pais["bandera"].'" width="50" height="30"></td>';
             echo '</tr>';
             
         }
