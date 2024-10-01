@@ -1,4 +1,5 @@
-<!-- 2.- Lee una frase y devuelve una nueva con solo los caracteres de las posiciones impares en letra mayúsculas. -->
+<!-- 2.- Lee una frase y devuelve una nueva con solo los caracteres de las posiciones 
+ impares en letra mayúsculas. -->
 
 
 <!DOCTYPE html>
