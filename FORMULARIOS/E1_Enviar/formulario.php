@@ -38,51 +38,7 @@ if (isset($_POST['nombre'])){//verifica si se ha enviado el formulario
     <title>Document</title>
 </head>
 <body>
-<!-- <form action="./recibir.php" method="get">
 
-<input type="text" name="nombre" placeholder="NOMBRE"></input>
-<input type="text" name="apellido" placeholder="APELLIDO"></input>
-
-<input type="submit" name="enviar" value="enviar"></input>
-</form> -->
-
-
-<!-- <form action="./recibir.php" method="POST">
-
-<select name="lenguajes[]" multiple="true">
-    <option value="c">C</option>
-    <option value="java">Java</option>
-    <option value="php">PHP</option>
-    <option value="python">Python</option>
-</select>
-<br>
-    <input type="checkbox" name="curso[]" value="daw" /> daw <br/>
-    <input type="checkbox" name="curso[]" value="asir" /> asir<br/>
-    <input type="checkbox" name="curso[]" value="smr" /> smr<br/>
-    <input type="checkbox" name="curso[]" value="universidad" /> universidad <br/>
-    
-
-<input type="submit" name="enviar">
-</form>
-
-<form action="./recibir.php" method="POST">
-
-<select name="lenguajes[]" multiple="true">
-    <option value="c">C</option>
-    <option value="java">Java</option>
-    <option value="php">PHP</option>
-    <option value="python">Python</option>
-</select>
-<br>
-    <input type="checkbox" name="curso[]" value="daw" /> daw <br/>
-    <input type="checkbox" name="curso[]" value="asir" /> asir<br/>
-    <input type="checkbox" name="curso[]" value="smr" /> smr<br/>
-    <input type="checkbox" name="curso[]" value="universidad" /> universidad <br/>
-
-<input type="submit" name="enviar">
-</form> -->
-
-<div >
 <form action="" method="POST">
     <div>
     <div >
