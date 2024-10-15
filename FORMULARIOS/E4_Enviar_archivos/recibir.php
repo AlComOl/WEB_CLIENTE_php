@@ -27,9 +27,9 @@ if (move_uploaded_file($_FILES['fichero_usuario']['tmp_name'], $fichero_subido))
 }
 
 $imagenes=scandir("./");
-$l=count($imagenes);
+$l=strlen($imagenes);
 
-for ($i=0; $i < $l; $i++) { 
+for ($i=0; $i < srtlen($l); $i++) { 
    
 
         echo '<img src="'.$imagenes[$i].'"style="height:50px weight:50px;">';
